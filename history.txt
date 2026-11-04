@@ -1,0 +1,101 @@
+    1  git version
+    2  git config --global user.name "Dmytro Mylka"
+    3  git config --global user.email "dmitriymylka@gmail.com"
+    4  git config --global -l
+    5  cd ICH
+    6  cd /ICH
+    7  wmp
+    8  clear
+    9  cd
+   10  cd /users/admin
+   11  cd /users
+   12  clear
+   13  ls -al
+   14  cd ICH/
+   15  clear
+   16  cp /downloads/catt.avif
+   17  cp /downloads/catt.avif C:/ICH/git_intro/photo.avif
+   18  cp /c/Users/Admin/Downloads/catt.avif /c/ICH/git_intro/photo.avif
+   19  git init
+   20  git add photo.avif
+   21  git add photo.jpg
+   22  cd /c/ich/git_intro
+   23  ls
+   24  git add photo.avif
+   25  git init
+   26  git add photo.avif
+   27  git commit -m "Added photo"
+   28  git branch -M main
+   29  git remote add origin git@github.com:acousticbrute/git_intro.git
+   30  git push -u origin main
+   31  vi myfirstbashscript.sh
+   32  chmod +x myfirstbashscript.sh 
+   33  cat myfirstbashscript.sh 
+   34  ./myfirstbashscript.sh > result.txt
+   35  ssh ec2-user
+   36  ssh ec2-user@itcareerhub.de
+   37  ssh ec2-user@linux.itcareerhub.de
+   38  clear
+   39  ssh ec2-user@linux.itcareerhub.de
+   40  ssh ec2-user@linux.itcareerhub.de
+   41  ssh ec2-user@linux.itcareerhub.de
+   42  mkdir test-merge
+   43  cd test-merge/
+   44  ls -al
+   45  nano Song.txt
+   46  git init
+   47  ls -al
+   48  git status
+   49  git add Song.txt 
+   50  git commit -m "Inital commit"
+   51  git log
+   52  nano Song.txt 
+   53  date >> README.txt
+   54  ls -al
+   55  git add README.txt 
+   56  git commit
+   57  git commit -m
+   58  git commit -m "Add File"
+   59  git checkout -b NewBranch
+   60  ls -al
+   61  nano Song.txt 
+   62  git commit -am "Add 2-lines"
+   63  txt
+   64  mkdir git-branch
+   65  cd git-branch
+   66  git init
+   67  pwd
+   68  git checkout -b gitignore
+   69  git branch
+   70  nano .gitignore
+   71  nano .gitignore
+   72  ls -a
+   73  git add .gitignore 
+   74  git commit -m "Added .gitignore"
+   75  git remote add origin git@github.com:acousticbrute/git-branch.git
+   76  git push -u origin gitignore
+   77  git remote -v
+   78  git push -u origin gitignore
+   79  clear
+   80  ssh ec2-user@linux.itcareerhub.de
+   81  history
+   82  git init
+   83  cd /c/ICH
+   84  git clone git@github.com:acousticbrute/git-feature.git
+   85  cd git-feature
+   86  pwd
+   87  git branch
+   88  git checkout -b feature
+   89  echo "# git-feature" > README.md
+   90  echo "*.log" >> .gitignore
+   91  git commit -m "Add README and update gitignore"
+   92  git add README.md .gitignore
+   93  git status
+   94  git commit -m "Add README and update gitignore"
+   95  git push -u origin feature
+   96  git commit --amend -m "Add README and update gitignore amend"
+   97  git push --force-with-lease origin feature
+   98  git checkout main
+   99  git merge feature
+  100  git log --oneline
+  101  history > history.txt
